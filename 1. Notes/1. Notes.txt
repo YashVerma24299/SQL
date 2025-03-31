@@ -1,0 +1,38 @@
+MYSQL:
+    Database
+    MySQL is a DBMS that uses SQL to store, retrieve, and manage data.
+
+SQL: Structured Query Language
+    Language
+    SQL is a language used to manage databases.
+
+As developers, we use SQL to perform operations on MySQL or other database management systems (DBMS).
+
+
+
+
+
+WHY DATABASES:
+    Storing data of "crores of people" on a laptop is "impossible", which is why "databases" were introduced.
+    store large data
+    easy to CRUD operation
+
+DATABASE:
+    It is a place where data is stored in an organized way.
+
+
+
+
+
+NoSQL:
+    Data stored in graphs / key-val etc ( Non Relational Database)
+    Example: MongoDB
+
+
+SQL:
+    Data stored in table (Relational Database)
+    Example: MySQL
+
+
+Installation of MYSQL:
+    mySQL Workbench
