@@ -1,0 +1,30 @@
+-> Numeric Data Types: 
+    INT → Stores numbers.
+    TINYINT → Small integer (0 to 255 or -128 to 127).
+    BIGINT → Large integer values.
+    FLOAT / DOUBLE
+    DECIMAL(p, s) → Exact decimal values
+        p = Total number of digits
+        s = Number of digits after the decimal point.
+        Example:
+            DECIMAL(10,2) -> 12345678.90
+
+
+
+-> String Data Types
+    VARCHAR(n) → Variable-length text.
+    CHAR(n) → Fixed-length text.
+    TEXT → Large text data.
+
+
+
+-> Date & Time Data Types
+    DATE → Stores dates (YYYY-MM-DD).
+    DATETIME → Stores date & time (YYYY-MM-DD HH:MM:SS).
+    TIMESTAMP → Stores date & time (automatically updates on changes).
+    TIME → Stores only time (HH:MM:SS).
+
+
+
+-> Boolean Data Type
+    BOOLEAN → Stores 0(false) or 1(true).

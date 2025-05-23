@@ -1,0 +1,38 @@
+Constaints: Rules for data in the table
+
+-> Unique:
+    all values in a column are distinct.
+
+-> Not Null:
+    column cannot have NULL values.
+
+-> Check:
+    a condition that each row must satisfy.
+
+-> Default:
+    default value if no value is provided.
+
+-> Primary Key:
+    unique values in a column.
+    Cannot have NULL values.
+    Only one primary key per table.
+    Example: (GOOD) 
+        create table temp(
+            id int not null,
+            Primary key (id);
+        );
+
+-> Foreign Key:
+    Links two tables by referring to the Primary Key of another table.
+    multiple foreign keys in a table.
+    can have duplicate and null values
+    Example:
+        CREATE TABLE enrollments (
+            id INT PRIMARY KEY,
+            student_roll_no INT,
+            FOREIGN KEY (student_roll_no) REFERENCES students(roll_no)
+        );
+        CREATE TABLE students (
+            roll_no INT PRIMARY KEY,
+            name VARCHAR(50)
+        );
