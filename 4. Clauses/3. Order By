@@ -1,0 +1,5 @@
+Order By:
+    It is used to sort the data in ascending (ASC) or descending (DESC) order.
+
+Syntax:
+    SELECT * FROM table_name ORDER BY column_name [ASC|DESC];

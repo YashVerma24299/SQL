@@ -1,0 +1,7 @@
+GROUP BY:
+    It is used to group rows with the same values in specified columns and apply aggregate functions like SUM(), COUNT(), AVG(), etc.
+
+Syntax:
+    SELECT column_name, AGGREGATE_FUNCTION(column_name)  
+    FROM table_name  
+    GROUP BY column_name;

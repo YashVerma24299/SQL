@@ -1,0 +1,5 @@
+Limit:
+    The LIMIT clause in SQL restricts the number of rows returned by a query. It is useful for handling large datasets and pagination.
+
+Syntax:
+    select * from table_name LIMIT number;

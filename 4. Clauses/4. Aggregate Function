@@ -1,0 +1,9 @@
+Aggregate functions:
+    It perform calculations on a set of values and return a single result.
+
+Common Aggregate Functions:
+    COUNT()	Counts the number of rows
+    SUM()	Calculates the total sum of a column
+    AVG()	Computes the average value
+    MAX()	Returns the highest value
+    MIN()	Returns the lowest value

@@ -1,0 +1,18 @@
+Where:
+    It allows you to retrieve only the rows that meet the criteria.
+
+Syntax:
+    select column1, column2, ... from table_name WHERE condition;
+
+Operators:
+    = (Equal to)
+    != (Not equal to)
+    > (Greater than)
+    < (Less than)
+    >= (Greater than or equal to)
+    <= (Less than or equal to)
+
+    BETWEEN (Range condition)
+    IN (Matches values in a list)
+    LIKE (Pattern matching)
+    AND, OR, NOT (Logical operators)

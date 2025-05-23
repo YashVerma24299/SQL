@@ -1,0 +1,9 @@
+HAVING clause:
+    It is used to filter groups after applying the GROUP BY clause.
+    It works like WHERE clause.
+
+Syntax:
+    SELECT column_name, AGGREGATE_FUNCTION(column_name)  
+    FROM table_name  
+    GROUP BY column_name  
+    HAVING condition;

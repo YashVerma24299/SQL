@@ -1,0 +1,7 @@
+Run this command when first time updation is perform in database:
+    set sql_safe_updates =0;
+
+Syntax:
+    Update table_name
+    set condition
+    where condition;

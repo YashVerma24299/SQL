@@ -1,0 +1,31 @@
+Add Column:
+    Alter table table_name
+    add column 
+    column_name datatype constraint;
+
+
+Drop Column:
+    Alter table table_name
+    drop column
+    column_name;
+
+
+Rename Table:
+    Alter table table_name
+    rename to new_table_name;
+
+
+Change Column(rename):
+    Alter table table_name
+    change column 
+    old_name new_name new_datatype new_constraint;
+
+
+Modify Column(modify datatype/constraint):
+    Alter table table_name
+    modify  
+    column_name new_datatype new_constraint;
+
+
+TRUNCATE:
+    Truncate table table_name;
