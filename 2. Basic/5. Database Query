@@ -1,0 +1,12 @@
+-> create database if not exists db_name;
+
+-> drop database if exists db_name;
+
+-> Show all database:
+    show databases;
+
+-> show all table from particular databse:
+    use db_name;
+    show tables;
+
+-> show table status;

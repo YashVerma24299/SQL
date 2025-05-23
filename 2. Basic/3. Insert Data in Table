@@ -1,0 +1,21 @@
+Method1:
+Insert into student
+values
+(101, "Adam", 12);
+
+
+Method2:
+Insert into student
+values (102, "Bob", 13);
+
+
+Method3:
+Insert into student values 
+(103, "Alice", 43);
+
+
+Method4:
+Insert into student values 
+(101, "Adam", 12),
+(102, "Bob", 13),
+(103, "Alice", 43);

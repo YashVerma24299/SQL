@@ -1,0 +1,5 @@
+Create a Database:
+    CREATE DATABASE db_name;
+
+Use a Database:
+    USE db_name;
