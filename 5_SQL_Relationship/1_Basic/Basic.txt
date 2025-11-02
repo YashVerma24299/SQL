@@ -1,0 +1,22 @@
+One-to-One(1:1)
+    One record in a table is related to exactly one record in another table.
+    Example:
+        Person – AadhaarCard
+
+One-to-Many(1:N)
+    One record in a table can be related to many records in another table.
+    Example:
+        Teacher – Students
+
+Many-to-Many (M:N)
+    Many records in one table are related to many records in another table. Requires a junction table.
+    Example:
+        Students – Courses
+
+
+Generally,
+    Focus on one to many(1:M) and it has 3 approaches:
+
+1. One to few (1 : 5/10/100 only)
+2. One to medium (1 : 1000/2000 only)
+3. One to Squillions/many (1 : 100000000 )
